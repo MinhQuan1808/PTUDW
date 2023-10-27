@@ -73,7 +73,7 @@ namespace MyClass.DAO
         }
         //////////////////////
         ///DELETE = Update 1 dong DB
-        public int Detele(Categories row)
+        public int Delete(Categories row)
         {
             db.Categories.Remove(row);
             return db.SaveChanges();
